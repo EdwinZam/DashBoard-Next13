@@ -3,5 +3,5 @@ import Image from 'next/image'
 
 export default function HomePage() {
 
-  redirect('/dashboard/counter');
+  redirect('/dashboard/pokemons');
 }
