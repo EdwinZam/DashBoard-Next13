@@ -3,6 +3,11 @@ import { PokemonGrid, PokemonsResponse, SimplePokemon } from "@/app/pokemons";
 //import { notFound } from "next/navigation";
 
 
+export const metadata = {
+ title: 'Pókemons 2da - 3ra GEN',
+ description: 'Pókemons 2da - 3ra GEN',
+};
+
 const getPokemons = async(limit = 235, offset = 151):Promise<SimplePokemon[]> =>{
     const data:PokemonsResponse = await fetch(`https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`).
         then(res => res.json());

@@ -32,8 +32,8 @@ export const Sidebar = () => {
         <div id="logo" className="my-4 px-6">
         <h1 className="flex items-center text-lg md:text-2xl font-bold text-white">
             <IoLogoReact className='mr-2' />
-            <span>Dash</span>
-            <span className="text-blue-500">8</span>.
+            <span>Next</span>
+            <span className="text-blue-500">13</span>.
         </h1>
         <p className="text-slate-500 text-sm">Manage your actions and activities</p>
         </div>
