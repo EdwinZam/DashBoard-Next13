@@ -34,7 +34,7 @@ export const PokemonCard = ({pokemon}: Props) => {
                     priority={false}
                 />
                     <p className="pt-2 text-lg font-semibold text-gray-50 capitalize">{pokemon.name}</p>
-                    <p className="text-sm text-gray-100">John@Doe.com</p>
+                    <p className="text-sm text-gray-100">N.º {pokemon.id}</p>
                     <div className="mt-5">
                         <Link
                             href={`/dashboard/pokemons/pokemons/${name}`}
