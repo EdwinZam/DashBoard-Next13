@@ -48,7 +48,7 @@ export const Sidebar = () => {
         <a href="#" className="inline-flex space-x-2 items-center">
             <span>
                 <Image className='rounded-full w-8 h-8'
-                    src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c"
+                    src="https://assets.pokemon.com/static2/_ui/img/chrome/profile-navigation/profile-nav-signup.png"
                     width={50}
                     height={50}
                     alt="Picture of the author avatar"
